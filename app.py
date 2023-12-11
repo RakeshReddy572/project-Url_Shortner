@@ -4,7 +4,7 @@ import string
 from  random import choice
 import validators
 
-cluster=MongoClient("mongodb+srv://udaykiran:udaykiran123@cluster0.p4c6kcv.mongodb.net/?retryWrites=true&w=majority")
+cluster=MongoClient("mongodb+srv://rakeshreddy:rakeshreddy123@cluster0.p4c6kcv.mongodb.net/?retryWrites=true&w=majority")
 
 db=cluster["url-shorten"]
 collection=db["history"]
